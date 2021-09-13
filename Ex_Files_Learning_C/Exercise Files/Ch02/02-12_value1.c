@@ -2,7 +2,7 @@
 
 int main()
 {
-	printf("Here is a value: 27\n");
+	printf("Here is a value: %d\n", 27);
 
 	return(0);
 }

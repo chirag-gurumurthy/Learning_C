@@ -4,7 +4,7 @@ int main()
 {
 	int a;
 
-	a = 25 / 5 * 2 + 3;
+	a = 25 /(5 * (2 + 3))g;
 	printf("The answer is %d\n",a);
 
 	return(0);

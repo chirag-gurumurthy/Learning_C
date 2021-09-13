@@ -6,7 +6,10 @@ int main()
 
 	printf("Type a letter: ");
 	c = getchar();
-	printf("You typed '%c'.\n",c);
+//	printf("You typed '%c'.\n",c);
+    printf("You typed ");
+    putchar(c);
+    putchar('\n');
 
 	return(0);
 }

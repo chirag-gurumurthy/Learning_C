@@ -5,7 +5,8 @@ int main()
 	int x = 10;
 
 	printf("%d\n",x);
-	x = x + 1;
+//	x++;
+    x--;
 	printf("%d\n",x);
 
 	return(0);

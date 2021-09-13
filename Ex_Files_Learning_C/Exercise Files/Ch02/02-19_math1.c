@@ -2,12 +2,12 @@
 
 int main()
 {
-	int a;
-	int b = 5;
+	float a;
+	float b = 5.0;
 
 	printf("Input an integer: ");
-	scanf("%d",&a);
-	printf("%d + %d = %d\n",a,b,a+b);
+	scanf("%f",&a);
+	printf("%f / %f = %f\n",a,b,a/b);
 
 	return(0);
 }

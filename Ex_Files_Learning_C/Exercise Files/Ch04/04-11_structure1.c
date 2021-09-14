@@ -6,6 +6,7 @@ int main()
 		int account;
 		float balance;
 	};
+    struct bank checking;
 
 	return(0);
 }

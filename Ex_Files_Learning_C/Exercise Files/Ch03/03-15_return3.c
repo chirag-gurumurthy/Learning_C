@@ -16,9 +16,9 @@ int main()
 
 float product(float a, float b, float c)
 {
-	float p;
+	//float p;
 
-	p = a * b * c;
-	return(p);
+	//p = a * b * c;
+	return(a * b * c);
 }
 

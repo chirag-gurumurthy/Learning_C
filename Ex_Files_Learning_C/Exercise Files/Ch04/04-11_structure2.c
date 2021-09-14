@@ -6,7 +6,7 @@ int main()
 		int account;
 		float balance;
 	};
-	struct bank checking;
+	struct bank checking;       // here 'checking' is the structure variable of the bank structure type
 
 	checking.account = 1234;
 	checking.balance = 567.89;

@@ -8,6 +8,7 @@ int main()
 	cheers();
 	puts("Everyone gets free dessert!");
 	cheers();
+	// printf("%d\n",x)
 
 	return(0);
 }

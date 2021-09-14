@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void evaluate(int x);
+
 int main()
 {
 	int i;
@@ -14,5 +16,17 @@ int main()
 void evaluate(int x)
 {
 	/* insert code here */
+	if(x<10)
+    {
+        printf("%d is less than 10\n", x);
+    }
+    else if(x>10)
+    {
+        printf("%d is greater than 10\n", x);
+    }
+    else if(x==10)
+    {
+        printf("%d is equal to 10\n", x);
+    }
 }
 

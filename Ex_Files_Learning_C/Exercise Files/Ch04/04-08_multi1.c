@@ -10,7 +10,7 @@ int main()
         for(col=0;col<3;col++)
 			grid[row][col] = 0;
 
-    grid[2][2] = 1;
+    grid[1][1] = 1;
 
 	/* display the grid */
 	for(row=0;row<3;row++)

@@ -19,9 +19,9 @@ int main()
 
 int iscaps(int ch)
 {
-	if( ch < 'A' || ch > 'Z')
-		return(0);
-	else
+	if( ch >= 'A' && ch <= 'Z')
 		return(1);
+	else
+		return(0);
 }
 

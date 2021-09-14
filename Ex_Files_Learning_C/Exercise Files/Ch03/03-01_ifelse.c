@@ -11,7 +11,7 @@ int main()
         printf("You typed %d.\n",a);
         printf("%d is greater than 10.\n",a);
     }
-	if(a <= 10 )
+	else
 	{
         printf("You typed %d.\n",a);
         printf("%d is less than or equal to 10.\n",a);
